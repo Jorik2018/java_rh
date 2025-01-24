@@ -35,7 +35,6 @@ dependencies {
     implementation 'org.springframework:spring-tx:6.0.11'
     implementation 'org.eclipse.microprofile.jwt:microprofile-jwt-auth-api:2.1'
     implementation files('/Users/ealarcop/Projects/java/java_isobit/build/libs/isobit.jar')
-    implementation files('D:\\java\\libs\\isobit.jar')
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api libs.commons.math3
 
